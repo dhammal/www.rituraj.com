@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+    font-family:"Montserrat", sans-serif ;
+    max-width: 50%;
+    margin: auto;
+    background-color: whitesmoke;
+    }
+
+.header{
+    display: flex;
+    align-items: center;
+}
+.face{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 70px;
+    margin-top: 30px;
+}
+.title{
+    flex: 1;
+    margin-left: 20px;
+
+}
+.name{
+    color: gray;
+}
+.coral{
+    color: coral;
+}
+.qualification{
+    letter-spacing: 1;
+}
+.line{
+    border: 1px solid coral;
+    
+}
+.table-heading{
+    min-width: 300px;
+
+}
+.table-props{
+    font-size: 22px;
+    color: coral;
+    margin-bottom: 45px;
+}
+.marginfix{
+    margin-top: 20px;
+}
+.school{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
